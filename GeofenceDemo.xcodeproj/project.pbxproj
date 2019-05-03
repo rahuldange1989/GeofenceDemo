@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		5F68DF52227AEC2A007BAA5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68DF51227AEC2A007BAA5A /* AppDelegate.swift */; };
-		5F68DF54227AEC2A007BAA5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68DF53227AEC2A007BAA5A /* ViewController.swift */; };
+		5F68DF54227AEC2A007BAA5A /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68DF53227AEC2A007BAA5A /* UserInfoViewController.swift */; };
 		5F68DF57227AEC2A007BAA5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F68DF55227AEC2A007BAA5A /* Main.storyboard */; };
 		5F68DF59227AEC2C007BAA5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F68DF58227AEC2C007BAA5A /* Assets.xcassets */; };
 		5F68DF5C227AEC2C007BAA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F68DF5A227AEC2C007BAA5A /* LaunchScreen.storyboard */; };
 		5F68DF67227AEC2C007BAA5A /* GeofenceDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68DF66227AEC2C007BAA5A /* GeofenceDemoTests.swift */; };
+		5F68DF72227BD981007BAA5A /* AddGeofenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68DF71227BD981007BAA5A /* AddGeofenceViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,7 @@
 /* Begin PBXFileReference section */
 		5F68DF4E227AEC2A007BAA5A /* GeofenceDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeofenceDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F68DF51227AEC2A007BAA5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5F68DF53227AEC2A007BAA5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5F68DF53227AEC2A007BAA5A /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		5F68DF56227AEC2A007BAA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F68DF58227AEC2C007BAA5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F68DF5B227AEC2C007BAA5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +37,7 @@
 		5F68DF62227AEC2C007BAA5A /* GeofenceDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeofenceDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F68DF66227AEC2C007BAA5A /* GeofenceDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofenceDemoTests.swift; sourceTree = "<group>"; };
 		5F68DF68227AEC2C007BAA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F68DF71227BD981007BAA5A /* AddGeofenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGeofenceViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,7 +80,8 @@
 			isa = PBXGroup;
 			children = (
 				5F68DF51227AEC2A007BAA5A /* AppDelegate.swift */,
-				5F68DF53227AEC2A007BAA5A /* ViewController.swift */,
+				5F68DF53227AEC2A007BAA5A /* UserInfoViewController.swift */,
+				5F68DF71227BD981007BAA5A /* AddGeofenceViewController.swift */,
 				5F68DF55227AEC2A007BAA5A /* Main.storyboard */,
 				5F68DF58227AEC2C007BAA5A /* Assets.xcassets */,
 				5F68DF5A227AEC2C007BAA5A /* LaunchScreen.storyboard */,
@@ -197,7 +200,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F68DF54227AEC2A007BAA5A /* ViewController.swift in Sources */,
+				5F68DF54227AEC2A007BAA5A /* UserInfoViewController.swift in Sources */,
+				5F68DF72227BD981007BAA5A /* AddGeofenceViewController.swift in Sources */,
 				5F68DF52227AEC2A007BAA5A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
