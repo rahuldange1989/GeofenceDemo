@@ -14,6 +14,9 @@
 		5F68DF5C227AEC2C007BAA5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F68DF5A227AEC2C007BAA5A /* LaunchScreen.storyboard */; };
 		5F68DF67227AEC2C007BAA5A /* GeofenceDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68DF66227AEC2C007BAA5A /* GeofenceDemoTests.swift */; };
 		5F68DF72227BD981007BAA5A /* AddGeofenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68DF71227BD981007BAA5A /* AddGeofenceViewController.swift */; };
+		5F68DF74227BDD31007BAA5A /* GeofenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68DF73227BDD31007BAA5A /* GeofenceModel.swift */; };
+		5F68DF77227BDE55007BAA5A /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68DF76227BDE55007BAA5A /* AppConstants.swift */; };
+		5F68DF7A227BEC83007BAA5A /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F68DF79227BEC83007BAA5A /* Utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		5F68DF66227AEC2C007BAA5A /* GeofenceDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofenceDemoTests.swift; sourceTree = "<group>"; };
 		5F68DF68227AEC2C007BAA5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5F68DF71227BD981007BAA5A /* AddGeofenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGeofenceViewController.swift; sourceTree = "<group>"; };
+		5F68DF73227BDD31007BAA5A /* GeofenceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeofenceModel.swift; sourceTree = "<group>"; };
+		5F68DF76227BDE55007BAA5A /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		5F68DF79227BEC83007BAA5A /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,8 @@
 		5F68DF50227AEC2A007BAA5A /* GeofenceDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5F68DF78227BEC6D007BAA5A /* Utilities */,
+				5F68DF75227BDD3C007BAA5A /* Models */,
 				5F68DF51227AEC2A007BAA5A /* AppDelegate.swift */,
 				5F68DF53227AEC2A007BAA5A /* UserInfoViewController.swift */,
 				5F68DF71227BD981007BAA5A /* AddGeofenceViewController.swift */,
@@ -97,6 +105,23 @@
 				5F68DF68227AEC2C007BAA5A /* Info.plist */,
 			);
 			path = GeofenceDemoTests;
+			sourceTree = "<group>";
+		};
+		5F68DF75227BDD3C007BAA5A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5F68DF73227BDD31007BAA5A /* GeofenceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F68DF78227BEC6D007BAA5A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				5F68DF76227BDE55007BAA5A /* AppConstants.swift */,
+				5F68DF79227BEC83007BAA5A /* Utility.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,7 +227,10 @@
 			files = (
 				5F68DF54227AEC2A007BAA5A /* UserInfoViewController.swift in Sources */,
 				5F68DF72227BD981007BAA5A /* AddGeofenceViewController.swift in Sources */,
+				5F68DF7A227BEC83007BAA5A /* Utility.swift in Sources */,
 				5F68DF52227AEC2A007BAA5A /* AppDelegate.swift in Sources */,
+				5F68DF74227BDD31007BAA5A /* GeofenceModel.swift in Sources */,
+				5F68DF77227BDE55007BAA5A /* AppConstants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
